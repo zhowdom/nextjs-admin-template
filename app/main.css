@@ -1,0 +1,73 @@
+/*侧边栏菜单样式*/
+.sidebar-box{
+	width: 290px;
+	height: 100vh;
+	background:#1c2434;
+	padding-left: 25px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:200;
+}
+.system-title{
+	font-size: 30px;
+	color:#fff;
+	padding-top: 1.375rem;
+    padding-bottom: 1.375rem;
+}
+.sidebar-box .items{
+	color:#dee4ee;
+	font-size:14px;
+	position: relative;
+	line-height: 40px;
+	cursor: pointer;
+	position:relative;
+}
+.sidebar-box .items .rightArrow{
+	position:absolute;
+	top:0;
+	right: 30px;
+	z-index: 10;
+}
+.sidebar-box .items .rightArrow.active{
+	rotate: 0.25turn;
+	transition:all 0.2s linear;
+}
+.items-child3{
+	display: none;
+}
+.items-child1 .twoLayer{
+	text-indent: 20px;
+	color: #8a99af;
+}
+.items-child1 .inTitle{
+	display:inline-block;
+	width: 200px;
+}
+.sidebar-box .items .oneLayer{
+	height: 40px;
+}
+.sidebar-box .items .iconfont:before{
+	padding-right: 10px;
+}
+/*公共头部样式*/
+.headerBox{
+	height:80px;
+	width:calc(100% - 290px);
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:100;
+	background: #fff;
+	color:red;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12);
+	text-align: center;
+	line-height:80px;
+}
+/*页面公共-样板间样式*/
+.pageComStyle{
+	margin-top:80px;
+	margin-left: 290px;
+	text-align:center;
+	line-height: 200px;
+}
